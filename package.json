@@ -1,0 +1,26 @@
+{
+  "name": "scuola-guida",
+  "version": "2.0.0",
+  "description": "Scuola Guida Patente A e B (IT/BN) con login, approvazione admin e vincolo a un dispositivo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/e2e.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^5.3.0",
+    "nodemailer": "^10.5.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mailparser": "^3.14.3",
+    "smtp-server": "^3.21.4"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "private": true
+}
